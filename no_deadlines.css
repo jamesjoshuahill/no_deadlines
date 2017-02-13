@@ -1,0 +1,9 @@
+.deadline.item {
+  display: none;
+}
+
+.story.model.item.release.is_release_past_deadline .preview {
+  background-color: #407aa5;
+  border-top: 1px solid #5982a7;
+  border-bottom: 1px solid #306494;
+}

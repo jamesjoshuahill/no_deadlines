@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+
+    "short_name": "No Deadlines",
+    "name": "No Deadlines for Pivotal Tracker",
+    "version": "1.0",
+    "author": "Josh Hill",
+    "description": "Hide deadlines in Pivotal Tracker",
+    "homepage_url": "https://github.com/jamesjoshuahill/no_deadlines",
+    "permissions": [
+        "http://www.pivotaltracker.com/*",
+        "https://www.pivotaltracker.com/*"
+    ],
+    "content_scripts": [{
+        "matches": [
+            "http://www.pivotaltracker.com/*",
+            "https://www.pivotaltracker.com/*"
+        ],
+        "css": [
+            "no_deadlines.css"
+        ]
+    }]
+}
