@@ -7,6 +7,16 @@
     "author": "Josh Hill",
     "description": "Hide deadlines in Pivotal Tracker",
     "homepage_url": "https://github.com/jamesjoshuahill/no_deadlines",
+    "icons": {
+        "16": "release_flag.png",
+        "128": "release_flag.png"
+    },
+    "page_action": {
+        "default_icon": {
+            "16": "release_flag.png"
+        },
+        "default_title": "No Deadlines"
+    },
     "permissions": [
         "http://www.pivotaltracker.com/*",
         "https://www.pivotaltracker.com/*"
